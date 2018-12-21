@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: jstl-1.2.jar javax.servlet-api-3.1.0.jar standard-1.1.2.ja
+ r jackson-core-2.9.1.jar jackson-annotations-2.9.1.jar jackson-databi
+ nd-2.9.1.jar reflections-0.9.10.jar guava-15.0.jar javassist-3.19.0-G
+ A.jar annotations-2.0.1.jar
+

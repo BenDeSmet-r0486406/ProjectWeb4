@@ -1,0 +1,13 @@
+<h2>Users</h2>
+<ul class="students">
+  <li *ngFor="let person of persons">
+    <h3>{{ person.firstName | uppercase }} {{ person.lastName | uppercase }}</h3>
+    <div><span>email: </span>{{person.email}}</div>
+    <div><span>firstname: </span>{{person.firstName}}</div>
+    <div><span>lastname: </span>{{person.lastName}}</div>
+    <div><span>age: </span>{{person.age}}</div>
+    <div><span>gender: </span>{{person.gender}}</div>
+    <div><span>Status: </span>{{person.state}}</div>
+    <div><span>Message: </span>{{person.statusMessage}}</div>
+  </li>
+</ul>
